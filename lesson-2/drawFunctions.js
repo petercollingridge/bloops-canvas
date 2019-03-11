@@ -4,7 +4,7 @@ var canvas = document.getElementById('canvas');
 var ctx = canvas.getContext('2d');
 var width = canvas.width;
 var height = canvas.height;
-ctx.fillStyle = 'steelblue';
+ctx.fillStyle = 'rgb(40, 170, 10)';
 
 function drawBloop(bloop) {
     ctx.clearRect(0, 0, width, height);
